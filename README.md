@@ -13,7 +13,7 @@
 ## What are the HTTP request methods?  
 **POST**, **GET**, **PUT**, **PATCH** and **DELETE** are the main methods that correspond to CRUD actions. There's also HEAD, CONNECT, OPTIONS and TRACE.
   
-## What happens when you ckick on a link or type an URL into the address bar of the browser?
+## What happens when you click on a link or type an URL into the address bar?
 1. DNS Lookup starts for *www.example.com.* -> check browser cache, OS cache, router cache
 2. Query is passed onto the Resolving Name Server (is the ISP?) -> check the ISP cache
 3. Query the Root Name servers (.)
