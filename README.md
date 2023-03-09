@@ -24,3 +24,6 @@
 8. Browser renders new page/content with received resources
   
 ## What is CORS?
+*Cross-origin Resource Sharing* is an HTTP mechanism that allows a server to restrict which URL's are allowed to load its resources.  
+When a browser sends a request, it adds an `Origin: foo.com` header to it. If the request is sent to a different URL (a *cross-origin request*), the server will add an `Access-Control-Allow-Origin: bar.com` header to the response, which specifies the allowed origins.  
+If the value of the `Origin` and the `Access-Control-Allow-Origin` headers don't match, the browser will block the response data from being loaded at the client. To prevent this error, the server needs to be configured to include the CORS headers and it has to accept the URL's of interest.
