@@ -1,3 +1,6 @@
+## What are HTML meta tags?  
+HTML meta tags are tags that provide additional information about the web page such as the title, description, author, keywords and encoding information to the browser, search engines and other web services. They're located in the `<head>` tag and they aren't displayed on the page itself.
+
 ## What is DOCTYPE? What is it for and why is it always at the top of the HTML file?  
   
 ## What are the differences between null and undefined?  
