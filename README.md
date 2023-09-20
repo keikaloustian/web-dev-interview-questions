@@ -23,7 +23,7 @@ Bundlers are used to resolve the dependency web of front end asset files and pac
 ## What do you care about when developing multiple-language web pages?  
   
 ## What are the HTTP request methods?  
-**POST**, **GET**, **PUT**, **PATCH** and **DELETE** are the main methods that correspond to CRUD actions. There's also HEAD, CONNECT, OPTIONS and TRACE.
+**POST**, **GET**, **PUT** (update entire resource), **PATCH** (update parts of a resource) and **DELETE** are the main methods that correspond to CRUD actions. There's also HEAD, CONNECT, OPTIONS and TRACE.
   
 ## What happens when you click on a link or type an URL into the address bar?
 1. DNS Lookup starts for *www.example.com.* -> check browser cache, OS cache, router cache
