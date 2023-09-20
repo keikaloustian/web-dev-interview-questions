@@ -1,6 +1,15 @@
 ## What are HTML meta tags?  
 HTML meta tags are tags that provide additional information about the web page such as the title, description, author, keywords and encoding information to the browser, search engines and other web services. They're located in the `<head>` tag and they aren't displayed on the page itself.
 
+## What do tools like Webpack do?
+Bundlers are used to resolve the dependency web of front end asset files and package them together into optimized bundles for the browser. This way, the client needs to make less requests to the server when visiting a page.
+
+## What are some ways to decrease page load time?  
+* Optimize media such as images and videos
+* Serve from closer to the end-user e.g. CDN, Edge
+* Employ caching methods
+* Minifying, code-splitting
+
 ## What is DOCTYPE? What is it for and why is it always at the top of the HTML file?  
   
 ## What are the differences between null and undefined?  
