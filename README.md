@@ -21,6 +21,9 @@ A callback is a function that is passed as argument to another function. They're
   
 ### What are event capturing and event bubbling?  
 
+### What are closures and lexical scoping?
+A closure is the combination of a function bundled together with references to its surrounding state (the lexical environment). Whenever a function is defined, it "remembers" the surrounding scope (and any variables that were accessible). In nested functions, a closure gives you access to an outer function's scope from an inner function.
+
 <br>
 <br>
 <br>
@@ -67,6 +70,4 @@ If the value of the `Origin` and the `Access-Control-Allow-Origin` headers don't
 <br>
 
 
-### What are closures and lexical scoping?
-A closure is the combination of a function bundled together with references to its surrounding state (the lexical environment). Whenever a function is defined, it "remembers" the surrounding scope (and any variables that were accessible). In nested functions, a closure gives you access to an outer function's scope from an inner function.
   
