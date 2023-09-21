@@ -12,7 +12,8 @@ The Document Object Model is the browser's object representation of the HTML cod
 <br>
 
 # JavaScript
-### What are the differences between null and undefined? 
+### What are the differences between null and undefined?
+While they both indicate a lack of value, `null` does not occur naturally. That is, if a variable has the value `null`, it has been assigned it manually. On the other hand, `undefined` occurs when trying to access a variable that has been declared but hasn't been assigned a value yet.
 
 ### What is a callback in JS?  
 A callback is a function that is passed as argument to another function. They're used to develop asynchronous code.  
@@ -23,6 +24,9 @@ A callback is a function that is passed as argument to another function. They're
 
 ### What are closures and lexical scoping?
 A closure is the combination of a function bundled together with references to its surrounding state (the lexical environment). Whenever a function is defined, it "remembers" the surrounding scope (and any variables that were accessible). In nested functions, a closure gives you access to an outer function's scope from an inner function.
+
+### What is JSON and what is it used for?
+JavaScript Object Notation is a standard text-based format for representing structured data. It is used for storing data and transmitting data over the web. 
 
 <br>
 <br>
