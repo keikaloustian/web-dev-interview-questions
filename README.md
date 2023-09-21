@@ -11,6 +11,20 @@ The Document Object Model is the browser's object representation of the HTML cod
 <br>
 <br>
 
+# JavaScript
+### What are the differences between null and undefined? 
+
+### What is a callback in JS?  
+A callback is a function that is passed as argument to another function. They're used to develop asynchronous code.  
+  
+### What is event delegation?  
+  
+### What are event capturing and event bubbling?  
+
+<br>
+<br>
+<br>
+
 # Web & Tooling
 ### What do tools like Webpack do?
 Bundlers are used to resolve the dependency web of front end asset files and package them together into optimized bundles for the browser. This way, the client needs to make less requests to the server when visiting a page.
@@ -21,11 +35,18 @@ Bundlers are used to resolve the dependency web of front end asset files and pac
 * Employ caching methods
 * Minifying, code-splitting
 
+### What are the differences between cookies and local storages?
+
 ### What do you care about when developing multiple-language web pages?  
   
 ### What are the HTTP request methods?  
 **POST**, **GET**, **PUT** (update entire resource), **PATCH** (update parts of a resource) and **DELETE** are the main methods that correspond to CRUD actions. There's also HEAD, CONNECT, OPTIONS and TRACE.
-  
+
+### What are the main characteristics of a RESTful API?
+* Stateless
+* Resources should be uniquely identifiable through the URL (endpoints)
+* HTTP request methods used to access and transform resources
+
 ### What happens when you click on a link or type an URL into the address bar?
 1. DNS Lookup starts for *www.example.com.* -> check browser cache, OS cache, router cache
 2. Query is passed onto the Resolving Name Server (is the ISP?) -> check the ISP cache
@@ -45,13 +66,7 @@ If the value of the `Origin` and the `Access-Control-Allow-Origin` headers don't
 <br>
 <br>
 
-# JavaScript
-### What are the differences between null and undefined?  
-### What is a callback in JS?  
-  
-### What are the differences between cookies and local storages?  
-  
-### What is event delegation?  
-  
-### What are event capturing and event bubbling?  
+
+### What are closures and lexical scoping?
+A closure is the combination of a function bundled together with references to its surrounding state (the lexical environment). Whenever a function is defined, it "remembers" the surrounding scope (and any variables that were accessible). In nested functions, a closure gives you access to an outer function's scope from an inner function.
   
