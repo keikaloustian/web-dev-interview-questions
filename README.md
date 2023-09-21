@@ -13,7 +13,7 @@ The Document Object Model is the browser's object representation of the HTML cod
 
 # JavaScript
 ### What are the differences between null and undefined?
-While they both indicate a lack of value, `null` does not occur naturally. That is, if a variable has the value `null`, it has been assigned it manually. On the other hand, `undefined` occurs when trying to access a variable that has been declared but hasn't been assigned a value yet.
+While they both indicate a lack of value, `null` does not occur naturally. That is, if a variable has the value `null`, it has been assigned manually. On the other hand, `undefined` occurs when trying to access a variable that has been declared but hasn't been assigned a value yet.
 
 ### What is a callback in JS?  
 A callback is a function that is passed as argument to another function. They're used to develop asynchronous code.  
