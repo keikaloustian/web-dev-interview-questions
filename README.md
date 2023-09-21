@@ -1,11 +1,12 @@
 # HTML & DOM
 ### What are HTML meta tags?  
-HTML meta tags are tags that provide additional information about the web page such as the title, description, author, keywords and encoding information to the browser, search engines and other web services. They're located in the `<head>` tag and they aren't displayed on the page itself.
+HTML meta tags are tags that provide additional information about the web page such as title, description, author, keywords and encoding information to the browser, search engines and other web services. They're located in the `<head>` section and they aren't displayed on the page itself.
 
 ### What is the DOM?
 The Document Object Model is the browser's object representation of the HTML code. It is organized into a tree-like data structure of all the elements that constitute the page in question.
 
 ### What is DOCTYPE? What is it for and why is it always at the top of the HTML file?  
+The document type declaration tells the browser what version of HTML the document is written in, which ensures the web page is parsed correctly regardless of the browser.
 
 <br>
 <br>
@@ -16,11 +17,13 @@ The Document Object Model is the browser's object representation of the HTML cod
 While they both indicate a lack of value, `null` does not occur naturally. That is, if a variable has the value `null`, it has been assigned manually. On the other hand, `undefined` occurs when trying to access a variable that has been declared but hasn't been assigned a value yet.
 
 ### What is a callback in JS?  
-A callback is a function that is passed as argument to another function. They're used to develop asynchronous code.  
-  
-### What is event delegation?  
+A callback is a function that is passed as argument to another function. They're typically used in asynchronous operations and event handling.  
   
 ### What are event capturing and event bubbling?  
+When an event occurs, it actually moves down each level from the document root to the target, in what is known as the **capturing phase** (however, only handlers assigned to capture will be triggered). The bubbling phase is when the event moves back up the tree from the target to the root. Between the two phases is the target phase, on the event target itself.
+
+### What is event delegation?  
+Event delegation is a way to handle an event at a higher level in the DOM than the element where it first originated. This is possible due to the event bubbling up the tree through the element's ancestors.
 
 ### What are closures and lexical scoping?
 A closure is the combination of a function bundled together with references to its surrounding state (the lexical environment). Whenever a function is defined, it "remembers" the surrounding scope (and any variables that were accessible). In nested functions, a closure gives you access to an outer function's scope from an inner function.
@@ -43,15 +46,22 @@ Bundlers are used to resolve the dependency web of front end asset files and pac
 * Minifying, code-splitting
 
 ### What are the differences between cookies and local storages?
-
-### What do you care about when developing multiple-language web pages?  
+**Cookies**
+* Accessible by the server (through request headers)
+* Small capacity (4KB)
+* Expiry date
+**Local Storage**
+* Only accessible by the browser
+* Larger capacity (5 or 10MB)
+* Doesn't expire
+* Easier native API (WebStorage API)
   
 ### What are the HTTP request methods?  
 **POST**, **GET**, **PUT** (update entire resource), **PATCH** (update parts of a resource) and **DELETE** are the main methods that correspond to CRUD actions. There's also HEAD, CONNECT, OPTIONS and TRACE.
 
 ### What are the main characteristics of a RESTful API?
 * Stateless
-* Resources should be uniquely identifiable through the URL (endpoints)
+* Resources should be uniquely identifiable through the URL
 * HTTP request methods used to access and transform resources
 
 ### What happens when you click on a link or type an URL into the address bar?
